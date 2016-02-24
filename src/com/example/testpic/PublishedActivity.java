@@ -9,9 +9,9 @@ import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.listener.SaveListener;
 
 import chuangbang.activity.R;
-import chuangbang.activity.SendMineStatus;
+import chuangbang.entity.ChuangUser;
 import chuangbang.entity.Status;
-import chuangbang.entity.User;
+
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -51,15 +51,15 @@ import android.widget.Toast;
 public class PublishedActivity extends Activity {
 
 	private GridView noScrollgridview;
-	private GridAdapter adapter;
+	//private GridAdapter adapter;
 	private TextView activity_selectimg_send;
 	private Status status;
 	private EditText etMyStatus;
 	private String text;
-	private User author;
+	private ChuangUser author;
 	private List<String> imagesList;
 
-	protected void onCreate(Bundle savedInstanceState) {
+	/*protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_selectimg);
 		author=BmobUser.getCurrentUser(this,User.class);
@@ -90,9 +90,9 @@ public class PublishedActivity extends Activity {
 		});
 		activity_selectimg_send = (TextView) findViewById(R.id.activity_selectimg_send);
 
-		/*
+		
 		 * 发送动态
-		 */
+		 
 		activity_selectimg_send.setOnClickListener(new OnClickListener() {
 
 			public void onClick(View v) {
@@ -157,9 +157,9 @@ public class PublishedActivity extends Activity {
 			return selectedPosition;
 		}
 
-		/**
+		*//**
 		 * ListView Item设置
-		 */
+		 *//*
 		public View getView(int position, View convertView, ViewGroup parent) {
 			final int coord = position;
 			ViewHolder holder = null;
@@ -327,9 +327,9 @@ public class PublishedActivity extends Activity {
 		}
 	}
 
-	/*
+	
 	 * 发表动态
-	 */
+	 
 	private void sendStatus(){
 		status=new Status();
 		text=etMyStatus.getText().toString();
@@ -358,5 +358,5 @@ public class PublishedActivity extends Activity {
 			}
 		});
 	}
-
+*/
 }

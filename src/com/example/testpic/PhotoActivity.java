@@ -32,7 +32,7 @@ public class PhotoActivity extends Activity {
 
 	RelativeLayout photo_relativeLayout;
 
-	public void onCreate(Bundle savedInstanceState) {
+/*	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_photo);
 
@@ -105,7 +105,7 @@ public class PhotoActivity extends Activity {
 		int id = intent.getIntExtra("ID", 0);
 		pager.setCurrentItem(id);
 	}
-
+*/
 	private void initListViews(Bitmap bm) {
 		if (listViews == null)
 			listViews = new ArrayList<View>();

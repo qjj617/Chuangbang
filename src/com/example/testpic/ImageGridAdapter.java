@@ -90,6 +90,12 @@ public class ImageGridAdapter extends BaseAdapter {
 	}
 
 	@Override
+	public View getView(int arg0, View arg1, ViewGroup arg2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/*@Override
 	public View getView(final int position, View convertView, ViewGroup parent) {
 		final Holder holder;
 
@@ -159,5 +165,5 @@ public class ImageGridAdapter extends BaseAdapter {
 		});
 
 		return convertView;
-	}
+	}*/
 }
