@@ -79,6 +79,12 @@ public class ImageBucketAdapter extends BaseAdapter {
 	@Override
 	public View getView(int arg0, View arg1, ViewGroup arg2) {
 		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/*@Override
+	public View getView(int arg0, View arg1, ViewGroup arg2) {
+		// TODO Auto-generated method stub
 		Holder holder;
 		if (arg1 == null) {
 			holder = new Holder();
@@ -106,5 +112,5 @@ public class ImageBucketAdapter extends BaseAdapter {
 		}
 		return arg1;
 	}
-
+*/
 }

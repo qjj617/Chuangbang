@@ -8,6 +8,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 public class ContextMenu extends BaseActivity {
+	//职位描述
 	private int position;
 
 	@Override
