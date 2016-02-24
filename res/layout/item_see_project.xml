@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/img_comment"
+        android:layout_marginRight="17dp"
+        android:text="2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_see_project_proLocation"
+        android:layout_alignBottom="@+id/tv_see_project_proLocation"
+        android:layout_marginRight="36dp"
+        android:layout_toLeftOf="@+id/img_comment"
+        android:text="1"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/img_comment"
+        android:layout_width="30dp"
+        android:layout_height="22dp"
+        android:layout_alignBottom="@+id/img_click"
+        android:layout_toLeftOf="@+id/textView5"
+        android:src="@drawable/comment_checked" />
+
+    <ImageView
+        android:id="@+id/iv_see_project_avater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_see_project_proDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_see_project_proLocation"
+        android:layout_toRightOf="@+id/iv_see_project_avater"
+        android:lineSpacingExtra="2dp"
+        android:lineSpacingMultiplier="1.2"
+        android:text=" 优点APP是......" />
+
+    <TextView
+        android:id="@+id/tv_see_project_proName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_see_project_proDescription"
+        android:layout_alignTop="@+id/iv_see_project_avater"
+        android:text="优点APP"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_see_project_proLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tv_see_project_proName"
+        android:layout_below="@+id/iv_see_project_avater"
+        android:text=" 上海：运营中"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/img_click"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignTop="@+id/textView4"
+        android:src="@drawable/click_a_like_normal" />
+
+</RelativeLayout>

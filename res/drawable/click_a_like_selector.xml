@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/click_a_like_check" android:state_checked="true"></item>
+    <item android:drawable="@drawable/click_a_like_normal"></item>
+</selector>

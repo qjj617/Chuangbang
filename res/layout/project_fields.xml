@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@color/light_blue"
+        android:gravity="center_vertical" >
+
+        <include layout="@layout/common_back_btn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/tr_set_project_field"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_set_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/layout_marginRight"
+            android:clickable="true"
+            android:text="@string/tv_set_confirm"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <!-- 安全 -->
+
+                <Button
+                    android:id="@+id/btn_safe"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_safe"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 传媒娱乐 -->
+
+                <Button
+                    android:id="@+id/btn_media_entertainment"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_media_entertainment"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 电子产品 -->
+
+                <Button
+                    android:id="@+id/btn_electronic_product"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_electronic_product"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <!-- 电子商务 -->
+
+                <Button
+                    android:id="@+id/btn_electronic_commerce"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_electronic_commerce"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 房地产 -->
+
+                <Button
+                    android:id="@+id/btn_real_estate"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_real_estate"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 服务 -->
+
+                <Button
+                    android:id="@+id/btn_service"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_service"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <!-- IT服务 -->
+
+                <Button
+                    android:id="@+id/btn_IT_service"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_IT_service"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 教育与培训 -->
+
+                <Button
+                    android:id="@+id/btn_education_and_training"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_education_and_training"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 金融 -->
+
+                <Button
+                    android:id="@+id/btn_finance"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_finance"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <!-- 旅游 -->
+
+                <Button
+                    android:id="@+id/btn_tourism"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_tourism"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 汽车 -->
+
+                <Button
+                    android:id="@+id/btn_automobile"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_automobile"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 社交网络 -->
+
+                <Button
+                    android:id="@+id/btn_social_networks"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_social_networks"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <!-- 生物制药 -->
+
+                <Button
+                    android:id="@+id/btn_bio_pharmaceutical"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_bio_pharmaceutical"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 市场营销 -->
+
+                <Button
+                    android:id="@+id/btn_marketing"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_marketing"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 消费者零售 -->
+
+                <Button
+                    android:id="@+id/btn_consumer_retail"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_consumer_retail"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <!-- 新能源 -->
+
+                <Button
+                    android:id="@+id/btn_new_energy"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_new_energy"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 移动 -->
+
+                <Button
+                    android:id="@+id/btn_mobile"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_mobile"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 医疗 -->
+
+                <Button
+                    android:id="@+id/btn_medical_care"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_medical_care"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <!-- 游戏 -->
+
+                <Button
+                    android:id="@+id/btn_game"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_game"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+                <!-- 其他 -->
+
+                <Button
+                    android:id="@+id/btn_others"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:text="@string/btn_others"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp" />
+
+                <!-- 隐藏的Button -->
+
+                <Button
+                    android:id="@+id/btn_hide"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_application_development"
+                    android:textColor="@color/gray_checking"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

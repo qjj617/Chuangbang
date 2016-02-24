@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 技术开发界面开始 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <!-- 指南针：顾问咨询开始 -->
+
+            <ImageView
+                android:id="@+id/zhinanzhen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingTop="10dp"
+                android:src="@drawable/zhinanzhen" />
+
+            <TextView
+                android:id="@+id/tv_consultant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/zhinanzhen"
+                android:paddingTop="12dp"
+                android:text="@string/consultant"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_guwenzixun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_consultant"
+                android:layout_marginTop="16dp"
+                android:layout_toRightOf="@+id/zhinanzhen"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/tv_consultant"
+                android:textColor="@color/green"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_write"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/zhinanzhen"
+                android:paddingLeft="6dp"
+                android:text="@string/tv_write"
+                android:textSize="14sp" />
+            <!-- 指南针：顾问咨询结束 -->
+
+
+            <!-- 灯：方案定制开始 -->
+
+            <TextView
+                android:id="@+id/tv_program_customization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imag_deng"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="29dp"
+                android:layout_toRightOf="@+id/tv_consultant"
+                android:text="@string/program_customization"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_fangandingzhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_guwenzixun"
+                android:layout_below="@+id/tv_program_customization"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/tv_program_customization"
+                android:textColor="@color/green"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_write1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imag_deng"
+                android:paddingLeft="6dp"
+                android:text="@string/tv_write1"
+                android:textSize="14sp" />
+            <!-- 灯：方案定制结束 -->
+
+
+            <!-- 飞机：战略支持开始 -->
+
+            <ImageView
+                android:id="@+id/imag_zhifeiji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tv_write1"
+                android:src="@drawable/zhifeiji" />
+
+            <TextView
+                android:id="@+id/tv_strategic_support"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_guwenzixun"
+                android:layout_alignTop="@+id/imag_zhifeiji"
+                android:layout_marginTop="18dp"
+                android:text="@string/strategic_support"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_zhannuezhichi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imag_zhifeiji"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/zhinanzhen"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/tv_strategic_support"
+                android:textColor="@color/green"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_write2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imag_zhifeiji"
+                android:paddingLeft="6dp"
+                android:text="@string/tv_write2"
+                android:textSize="14sp" />
+            <!-- 飞机：战略支持结束 -->
+
+            <Button
+                android:id="@+id/btn_application_development"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_program_customization"
+                android:layout_below="@+id/tv_write2"
+                android:text="@string/btn_application_development" />
+
+            <ImageView
+                android:id="@+id/imag_deng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tv_write"
+                android:src="@drawable/deng" />
+        </RelativeLayout>
+    </ScrollView>
+    <!-- 技术开发界面结束 -->
+
+</LinearLayout>

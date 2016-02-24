@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <chuangbang.view.MyTextView
+        android:id="@+id/tv_write3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="7dp"
+        android:background="@null"
+        android:lineSpacingExtra="5dp"
+        android:lineSpacingMultiplier="1.2"
+        android:paddingRight="4dp"
+        android:paddingTop="7dp"
+        android:text="@string/tv_write3"
+        android:textSize="15sp" />
+
+    <chuangbang.view.MyTextView
+        android:id="@+id/tv_write4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_write3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="152dp"
+        android:text="@string/tv_write4" />
+
+    <Button
+        android:id="@+id/btn_registered_company"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_incubation_incubator"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_registered_company" />
+
+    <Button
+        android:id="@+id/btn_accounting_do_account"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btn_registered_company"
+        android:layout_marginRight="16dp"
+        android:text="@string/btn_accounting_do_account" />
+
+    <Button
+        android:id="@+id/btn_intellectual_property_right"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_legal_advice"
+        android:layout_alignBottom="@+id/btn_legal_advice"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_intellectual_property_right" />
+
+    <Button
+        android:id="@+id/btn_incubation_incubator"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_write3"
+        android:layout_below="@+id/tv_write4"
+        android:layout_marginTop="48dp"
+        android:text="@string/btn_incubation_incubator" />
+
+    <Button
+        android:id="@+id/btn_legal_advice"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_write3"
+        android:layout_below="@+id/btn_incubation_incubator"
+        android:layout_marginTop="31dp"
+        android:text="@string/btn_legal_advice" />
+
+</RelativeLayout>
